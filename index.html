@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pesan Buket Bunga</title>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Pacifico&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="hero"><svg class="bow" viewBox="0 0 120 72" width="120" height="72" aria-hidden="true"><path d="M60 34C40 6 6 8 8 32C10 54 40 50 60 34Z"/><path d="M60 34C80 6 114 8 112 32C110 54 80 50 60 34Z"/><path class="tail" d="M56 38L40 68L54 62L60 70L62 42Z"/><path class="tail" d="M64 38L80 68L66 62L60 70L58 42Z"/><circle cx="60" cy="35" r="9"/></svg>
+<h1>Pesan buket bunga</h1>
+<p class="lead">Pilih bunga, atur jumlah tangkai, lalu pilih warna bungkusnya. Pesanan dikirim lewat WhatsApp.</p>
+<div class="sparkle" aria-hidden="true">🌸 💗 🎀 💗 🌸</div></div>
+
+<h2>Pilih bunga</h2>
+<div id="flowers"></div>
+
+<h2>Warna bungkus</h2>
+<div class="wraps" id="wraps"></div>
+<p class="note">Boleh pilih lebih dari satu warna untuk dipadukan. Biaya bungkus tetap Rp15.000 per buket.</p>
+
+<h2>Data pemesan</h2>
+<label class="field">Nama<input id="nama" autocomplete="name"></label>
+<label class="field">Tanggal pengambilan atau pengiriman<input id="tgl" type="date"></label>
+<label class="field">Alamat pengiriman (kosongkan jika diambil sendiri)<textarea id="alamat" rows="2"></textarea></label>
+<label class="field">Pesan untuk kartu ucapan<textarea id="kartu" rows="2"></textarea></label>
+
+<h2>Ringkasan</h2>
+<div class="sum" id="sum"></div>
+<a class="cta" id="kirim" href="#" target="_blank" rel="noopener" aria-disabled="true">🎀 Kirim pesanan lewat WhatsApp</a>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
